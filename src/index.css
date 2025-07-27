@@ -6,12 +6,26 @@
 body {
   background: #151719;
 }
+body::-webkit-scrollbar {
+  width: 0;
+  height: 0;
+}
 
 .container {
-  max-width: 1144px;
+  max-width: 1104px;
   width: 100%;
   margin-right: auto;
   margin-left: auto;
-  padding-right: 20px;
-  padding-left: 20px;
+}
+
+.container-sm {
+  max-width: 768px;
+  width: 100%;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.li:first-child {
+  font-weight: 500;
+  color: #d9e3ea;
 }
